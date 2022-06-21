@@ -1,0 +1,145 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+/* You can override the default Infima variables here. */
+
+:root {
+    --ifm-color-primary: #8e4bbc;
+    --ifm-color-primary-dark: #7d3ea7;
+    --ifm-color-primary-darker: #6f3796;
+    --ifm-color-primary-darkest: #613082;
+    --ifm-color-primary-light: #a26ac8;
+    --ifm-color-primary-lighter: #ad7dcf;
+    --ifm-color-primary-lightest: #b990d5;
+    --ifm-code-font-size: 95%;
+}
+
+html[data-theme='dark'] {
+    --ifm-color-primary: #b990db;
+    --ifm-color-primary-dark: #ad7dca;
+    /* any other colors you wish to overwrite */
+}
+
+.docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+a.button.button--secondary {
+    color: black!important;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+a.button.button--secondary:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+a.button.button--primary {
+    color: white!important;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: none;
+}
+
+a.button.button--primary:hover {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.footer {
+    background-color: #262626;
+}
+
+
+/* 顶部通知条样式 */
+
+div[class^="announcementBar"] {
+    height: auto;
+}
+
+div[class^="announcementBarContent"] {
+    font-size: 14px;
+    padding: 8px 30px;
+}
+
+div[class^="announcementBarContent"] a {
+    display: inline-block;
+    color: #f5abff !important;
+    text-decoration: none;
+}
+
+div[class^="announcementBarContent"] a:hover {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+
+/* 下载按钮样式 */
+
+.buttonDownload {
+    height: 46px;
+    padding: 10px 24px;
+    color: #8E4BBC;
+    font-size: 16px;
+    line-height: 46px;
+    border: 1px solid #8E4BBC;
+    border-radius: 6px;
+}
+
+html[data-theme='dark'] .buttonDownload {
+    color: #b990db;
+    border-color: #b990db;
+}
+
+.buttonDownload:hover {
+    background: #eee4f5;
+    color: #8e4bbc;
+    text-decoration: none;
+}
+
+html[data-theme='dark'] .buttonDownload:hover {
+    background: #261237;
+    color: #b990db;
+    text-decoration: none;
+}
+
+
+/* 水平分割线样式 */
+
+hr {
+    border-color: #0002;
+    padding: 0 4px;
+    border-width: 0.5px;
+}
+
+html[data-theme='dark'] hr {
+    border-color: #595959;
+}
+
+
+/* 主页图标样式 */
+
+.gameicon {
+    width: 52px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+
+/* 特殊时期时网页黑白 */
+
+
+/*html {
+    filter: grayscale(1);
+    filter: gray;
+}*/
