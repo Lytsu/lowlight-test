@@ -32,9 +32,10 @@ export default function Home() {
       description="Lowlight - A Faint Light">
         <div>
         <div className={styles.HomepageTips}>
-          我们修订了未成年人保护政策。
-          <Link to="/policies/minor">
-          点此了解→
+        重要：这是微光 Lowlight 的测试版本网站，不建议在正式环境中实际使用。<br />
+          若想正常体验微光 Lowlight 下载站，请前往正式版本。
+          <Link to="https://lowi.ro">
+          点此跳转→
           </Link>
           </div>
         </div>
